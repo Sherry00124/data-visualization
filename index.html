@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>数据赋能</title>
+
+    <link rel="stylesheet" href="css/index.css">
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+</head>
+
+<body>
+    <div class="nav">
+        <div class="nav_content">
+            <button class="nav_btn" @click="handleBtn" style="position: absolute;left: 0;top: 50px;">返回首页</button>
+            <div class="title">数据赋能</div>
+            <div class="btn">
+                <button class="nav_btn" @click="handleBtn">人工上报数据</button>
+                <button class="nav_btn" @click="handleBtn">预留遥感接口</button>
+            </div>
+        </div>
+
+    </div>
+    <div class="body_content">
+        <div class="table_one">
+            <div class="hb"></div>
+            <div class="table_one_title">
+
+                <div class="table_one_title_one">
+
+                    <div class="tubiao">
+                        <img src="img/lin1.png" class="toup"></img>
+                        <img src="img/lin2.png" class="todown"></img>
+                    </div>
+                    <div class="text_one">
+                        全旗小米种植结构统计
+                    </div>
+                    <div class="text_two">
+                        QUAN QI XIAO MI ZHONG ZHI JIE GOU TONG JI
+                    </div>
+                </div>
+
+            </div>
+            <div class="hline">
+                <div class="tbontm"></div>
+                <div class="linehe">
+                    <div class="hxt"></div>
+                    <div class="bht"></div>
+                </div>
+                <div class="thb"></div>
+            </div>
+            <div class="table_one_content">
+                <div class="table_one_content_pie_1"></div>
+            </div>
+
+            <div class=".table_one_two">
+                <div class="hb"></div>
+                <div class="table_one_title">
+
+                    <div class="table_one_title_one">
+
+                        <div class="tubiao">
+                            <img src="img/lin1.png" class="toup"></img>
+                            <img src="img/lin2.png" class="todown"></img>
+                        </div>
+                        <div class="text_one">
+                            全旗小米种植面积与农户统计
+                        </div>
+                        <div class="text_two">
+                            QUAN QI XIAO MI ZHONG ZHI MIAN JI YU NONG HU TONG JI
+                        </div>
+                    </div>
+
+                </div>
+                <div class="hline">
+                    <div class="tbontm"></div>
+                    <div class="linehe">
+                        <div class="hxt"></div>
+                        <div class="bht"></div>
+                    </div>
+                    <div class="thb"></div>
+                </div>
+                <div class="table_one_content">
+                    <div class="table_one_content_leftDown">
+                        <div style="display: flex;flex-direction: column;">
+                            <div style="display: flex; align-items: center; justify-content: center;">
+                                <img src="./img/left_sanjiao.png" style="height: 40pt;">
+                                <div class="chart_title">
+                                    全旗镇小米种植面积(万亩)
+                                </div>
+                                <img src="./img/right_sanjiao.png" style="height: 40pt;">
+                            </div>
+                            <div class="table_one_content_leftDown_left">
+
+                            </div>
+                        </div>
+                        <div style="display: flex;flex-direction: column;">
+                            <div style="display: flex; align-items: center; justify-content: center;">
+                                <img src="./img/left_sanjiao.png" style="height: 40pt;">
+                                <div class="chart_title">
+                                    全旗镇小米农户统计(户)
+                                </div>
+                                <img src="./img/right_sanjiao.png" style="height: 40pt;">
+                            </div>
+                            <div class="table_one_content_leftDown_right">
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="border-left">
+            <img src="./img/borderLeft.png" alt="" style="height: 1740px">
+        </div>
+        <div class="body-center">
+            <div class="side-left">
+                <div class="item">
+                    <img src="./img/icon1.png" class="item-img">
+                    <div class="item-text">
+                        <div class="item-text-title">
+                            <div class="item-text-title-num">
+                                20
+                            </div>
+                            <div class="item-text-title-unit">
+                                个
+                            </div>
+                        </div>
+                        <div class="item-text-content">
+                            标准化示范基地
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="./img/icon2.png" class="item-img">
+                    <div class="item-text">
+                        <div class="item-text-title">
+                            <div class="item-text-title-num">
+                                20
+                            </div>
+                            <div class="item-text-title-unit">
+                                个
+                            </div>
+                        </div>
+                        <div class="item-text-content">
+                            标准化示范基地
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="./img/icon3.png" class="item-img">
+                    <div class="item-text">
+                        <div class="item-text-title">
+                            <div class="item-text-title-num">
+                                20
+                            </div>
+                            <div class="item-text-title-unit">
+                                个
+                            </div>
+                        </div>
+                        <div class="item-text-content">
+                            标准化示范基地
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="./img/icon4.png" class="item-img">
+                    <div class="item-text">
+                        <div class="item-text-title">
+                            <div class="item-text-title-num">
+                                20
+                            </div>
+                            <div class="item-text-title-unit">
+                                个
+                            </div>
+                        </div>
+                        <div class="item-text-content">
+                            标准化示范基地
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="center">
+                <div class="center-map"></div>
+            </div>
+            <div class="side-right">
+                <div class="item">
+                    <img src="./img/icon5.png" class="item-img">
+                    <div class="item-text">
+                        <div class="item-text-title">
+                            <div class="item-text-title-num">
+                                20
+                            </div>
+                            <div class="item-text-title-unit">
+                                个
+                            </div>
+                        </div>
+                        <div class="item-text-content">
+                            标准化示范基地
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="./img/icon6.png" class="item-img">
+                    <div class="item-text">
+                        <div class="item-text-title">
+                            <div class="item-text-title-num">
+                                20
+                            </div>
+                            <div class="item-text-title-unit">
+                                个
+                            </div>
+                        </div>
+                        <div class="item-text-content">
+                            标准化示范基地
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="./img/icon7.png" class="item-img">
+                    <div class="item-text">
+                        <div class="item-text-title">
+                            <div class="item-text-title-num">
+                                20
+                            </div>
+                            <div class="item-text-title-unit">
+                                个
+                            </div>
+                        </div>
+                        <div class="item-text-content">
+                            标准化示范基地
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="./img/icon8.png" class="item-img">
+                    <div class="item-text">
+                        <div class="item-text-title">
+                            <div class="item-text-title-num">
+                                20
+                            </div>
+                            <div class="item-text-title-unit">
+                                个
+                            </div>
+                        </div>
+                        <div class="item-text-content">
+                            标准化示范基地
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="border-right">
+            <img src="./img/borderRight.png" alt="" style="height: 1740px">
+        </div>
+        <div class="table_one">
+            <div class="hb"></div>
+            <div class="table_one_title">
+
+                <div class="table_one_title_one">
+
+                    <div class="tubiao">
+                        <img src="img/lin1.png" class="toup"></img>
+                        <img src="img/lin2.png" class="todown"></img>
+                    </div>
+                    <div class="text_one">
+                        下洼镇小米种植结构统计
+                    </div>
+                    <div class="text_two">
+                        XIA WA ZHEN XIAO MI ZHONG ZHI JIE GOU TONG JI
+                    </div>
+                </div>
+
+            </div>
+            <div class="hline">
+                <div class="tbontm"></div>
+                <div class="linehe">
+                    <div class="hxt"></div>
+                    <div class="bht"></div>
+                </div>
+                <div class="thb"></div>
+            </div>
+            <div class="table_one_content">
+                <div class="table_one_content_pie_2">
+
+                </div>
+            </div>
+
+            <div class=".table_one_two">
+                <div class="hb"></div>
+                <div class="table_one_title">
+
+                    <div class="table_one_title_one">
+
+                        <div class="tubiao">
+                            <img src="img/lin1.png" class="toup"></img>
+                            <img src="img/lin2.png" class="todown"></img>
+                        </div>
+                        <div class="text_one">
+                            下洼镇小米种植面积与农户统计
+                        </div>
+                        <div class="text_two">
+                            XIA WA ZHEN XIAO MI ZHONG ZHI MIAN JI YU NONG HU TONG JI
+                        </div>
+                    </div>
+
+                </div>
+                <div class="hline">
+                    <div class="tbontm"></div>
+                    <div class="linehe">
+                        <div class="hxt"></div>
+                        <div class="bht"></div>
+                    </div>
+                    <div class="thb"></div>
+                </div>
+                <div class="table_one_content">
+                    <div class="table_one_content_rightDown">
+                        <div style="display: flex;flex-direction: column;">
+
+                            <div style="display: flex; align-items: center; justify-content: center;">
+                                <img src="./img/left_sanjiao.png" style="height: 40pt;">
+                                <div class="chart_title">
+                                    下洼镇小米种植面积(万亩)
+                                </div>
+                                <img src="./img/right_sanjiao.png" style="height: 40pt;">
+                            </div>
+
+                            <div class="table_one_content_rightDown_left">
+
+                            </div>
+                        </div>
+                        <div style="display: flex;flex-direction: column;">
+                            <div style="display: flex; align-items: center; justify-content: center;">
+                                <img src="./img/left_sanjiao.png" style="height: 40pt;">
+                                <div class="chart_title">
+                                    下洼镇小米农户统计(户)
+                                </div>
+                                <img src="./img/right_sanjiao.png" style="height: 40pt;">
+                            </div>
+                            <div class="table_one_content_rightDown_right">
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+    </div>
+</body>
+
+</html>
+
+<script type="text/javascript" src="js/echarts.min.js"></script>
+
+<script src="js/qqArea.js"></script>
+<script src="js/qqPeasant.js"></script>
+<script src="js/xwArea.js"></script>
+<script src="js/xwPeasant.js"></script>
+<script src="js/qqPie.js"></script>
+<script src="js/xwPie.js"></script>
+<script src="js/map.js"></script>
